@@ -273,6 +273,9 @@
 	.container{
 		width: 350px;
 	}
+	.header-menu-area {
+		padding: 6px 0px;
+	}
 	.header-button .item a {
 		padding: 20px;
 	}
@@ -303,12 +306,12 @@
 		width: 100%;
 	}
 	.achive-slider-area .tns-controls button {
-		left: -27px;
+		left: 5px;
 		width: 42px;
 		height: 43px;
 	}
 	.achive-slider-area .tns-controls button[data-controls="prev"] {
-		right: -25px;
+		right: 5px;
 		left: auto;
 		width: 42px;
 		height: 43px;
@@ -329,9 +332,9 @@
 	}
 	
 	.team-branding-grid {
-		grid-template-columns: auto auto;
-		grid-row-gap: 40px;
-		grid-column-gap: 40px;
+		grid-template-columns: auto;
+		grid-row-gap: 50px;
+		justify-content: center;
 	}
 	
 	.team-slider-content {
@@ -346,8 +349,38 @@
 		font-size: 13px;
 	}
 	
+	.tns-controls button {
+		margin-top: 25px;
+		top: 100%;
+	}
+	
+	.services-top-grid {
+		grid-template-columns: auto;
+	}
+	
+	.services-title {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	
+	.services-top-right-area {
+		text-align: center;
+	}
+	
+	.services-button {
+		margin-bottom: 30px;
+	}
+	
+	.services-button a {
+		padding: 13px;
+	}
+	
+	[data-controls="prev"] {
+		left: 51%;
+	}
+	
 	[data-controls="next"] {
-		left: 75%;
+		left: 36%;
 	}
 	
 	.footer-grid-column {
